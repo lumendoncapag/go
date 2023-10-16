@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 )
 
@@ -33,5 +34,16 @@ func main() {
 	)
 	fmt.Println(n10, n11)
 
-	
+	//Irá retornar o valor numero da tabela ASCII
+	char := 'A'
+	fmt.Println(char)
+
+	//Booleano , por defaultt é false
+	var booleano bool = true
+	fmt.Println(booleano)
+
+	//error , default -> "<nil>"
+	//Para setar valores de erros , podemos utilizar o pacote nativo *errors*
+	var erro error = errors.New("Erro interno")
+	fmt.Println(erro)
 }
