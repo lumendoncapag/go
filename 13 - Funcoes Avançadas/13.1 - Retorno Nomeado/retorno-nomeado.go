@@ -1,7 +1,7 @@
 package main
 
 //nomeia o valor de saida da funcao ja na declarao
-func calculoMatematicos(n1, n2 int) (soma int, sub int) {
+func calculoMatematicos(n1, n2 int) (soma, sub int) {
 	soma = n1 + n2
 	sub = n1 - n2
 	//Nao precisa retornar a variavel return
