@@ -25,7 +25,7 @@ type pessoa struct {
 }
 
 type estudante struct {
-	//Não precisa declarar o tipo , igual o tipo endereçõ do exemplo acima
+	//Não precisa declarar o tipo , igual o tipo endereçõ do exemplo acima. Nesse formato ele herda
 	pessoa
 	curso     string
 	faculdade string

@@ -4,7 +4,7 @@
     - go run 
     - go build
     - go install
-    - go module init "nome do module" 
+    - go mod init "nome do module" 
     - go get "link do pacote" Exemplo : go get github.com/badoux/checkmail
     - go mod tidy //Exclui todas as dependencias
 
